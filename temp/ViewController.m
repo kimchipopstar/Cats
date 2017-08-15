@@ -26,9 +26,6 @@
     NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:url];
     urlRequest.HTTPMethod = @"GET";
     
-    
-    NSLog(@"here");
-    
     NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
     NSURLSession *urlSession = [NSURLSession sessionWithConfiguration:configuration];
     
